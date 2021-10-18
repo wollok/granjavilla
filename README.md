@@ -67,7 +67,7 @@ Si hay varias plantas en el mismo lugar, puede ser que algunas estén para cosec
 **TIP**  
 Buscar la docentación de Wollok game en http://www.wollok.org/documentacion/wollokdoc/ 
 para saber cómo obtener los objetos que están en la misma posición que Héctor.
-Ojo que al hacer eso, entre los objetos que encuentren va a estar el propio Héctor.
+Ojo que al hacer eso, entre los objetos que encuentren puede estar el propio Héctor.
 
 ## Venta
 Usando la letra V, Héctor vende lo que tiene para vender.
@@ -84,7 +84,18 @@ P.ej. "tengo 800 monedas, y 3 plantas para vender".
 Una vez que vende lo que tiene para vender, obviamente, deja de tenerlo.
 
 
-## Bonus: varios mercados
+## Bonus
+
+### Aspersores
+Al presionar la tecla A, hacer que Héctor deje un aspersor donde se encuentra. El aspersor (imagen `aspersor.png`) tiene la capacidad de regar las plantas que tiene alrededor, o sea en las posiciones limítrofes a donde se encuentra el aspersor, _automáticamente cada 1 segundo_.
+
+**Nota**  
+Pensar en los objetos que _podrían_ ser regados por el aspersor: ¿Qué pasa si Héctor se queda parado al lado? ¿Y si hay otro aspersor? 
+
+**TIP**  
+Buscar la docentación de Wollok game en http://www.wollok.org/documentacion/wollokdoc/ cómo manejar eventos temporales.
+
+### Varios mercados
 Incluir dos o tres mercados (imagen `market.png`), eligiendo dónde poner cada uno en el tablero. 
 Cada mercado tiene una cantidad de monedas, y mercadería para vender.  
 Hacer que Héctor solamente pueda vender si está en un mercado, y además el mercado tiene suficiente cantidad de monedas para pagar lo que Héctor tiene para vender. En tal caso, la mercadería se agrega al mercado, y se le descuentan las monedas que le da a Héctor en pago.  
